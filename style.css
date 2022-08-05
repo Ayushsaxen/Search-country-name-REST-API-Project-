@@ -1,0 +1,57 @@
+*{
+    padding-top: 5px;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+}
+.center{
+    width: 70vw;
+    margin: auto;
+}
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    display: inline-block;
+    width: 60vw;
+    padding: 7px;
+}
+button{
+    width: 9vw;
+    padding: 7px;
+    background-color: green;
+    color: white;
+    border: solid;
+    border-color:rgb(20, 162, 13) ;
+}
+table{
+    padding-top: 10px;
+    width: 100%;
+}
+tr{
+    background-color: rgb(24, 35, 252);
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(28, 126, 247);
+}
+th,td{
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: underline;
+    }
+#para{
+    border: 2px solid rgb(27, 0, 182);
+    background-color: rgb(24, 35, 252);
+    color:white;
+    display: inline-block;
+    justify-content: center;
+    width: 67vw;
+    padding: 10px;
+    
+}
